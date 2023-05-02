@@ -4,7 +4,7 @@ import axios from "axios";
 export default createStore({
   state: {
     //API_URL: "https://suliverseny20230127141113.azurewebsites.net/",
-    API_URL: "https://localhost:5001/",
+    API_URL: "https://80.98.7.27:5001/",
     possible: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
     userSalt: "",
     logged: false,
